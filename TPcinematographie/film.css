@@ -1,0 +1,21 @@
+.histoireType {
+    text-align: justify;
+    background-color: #DDDDDD;
+    }
+
+body { 
+    font-family: Arial, sans-serif;
+ }
+h1 { 
+    color: #333;
+ }
+h2 { 
+    color: #0066cc;
+ }
+p { 
+    font-size: 14px; line-height: 1.6;
+ }
+ul { 
+    list-style-type: square; margin-left: 20px;
+ }
+               

@@ -1,0 +1,100 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="films" type="filmsType">
+        <xs:key name="acteurDescriptionKey">
+            <xs:selector xpath="acteurDescription"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+        <xs:keyref name="acteurRefKey" refer="acteurDescriptionKey">
+            <xs:selector xpath="film/acteurs/acteur"/>
+            <xs:field xpath="@ref"/>
+        </xs:keyref>
+    </xs:element>
+
+    <xs:complexType name="filmsType">
+        <xs:sequence>
+            <xs:element name="film" type="filmType" minOccurs="1" maxOccurs="unbounded"/>
+            <xs:element name="acteurDescription" type="acteurDescriptionType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="filmType">
+        <xs:sequence>
+            <xs:element name="titre" type="xs:string"/>
+            <xs:element name="affiche" type="xs:string"/>
+            <xs:element name="exploitation" type="exploitationType"/>
+            <xs:element name="acteurs" type="acteursType"/>
+            <xs:element name="realisateur" type="xs:string"/>
+            <xs:element name="genres" type="genresType"/>
+            <xs:element name="duree" type="dureeType"/>
+            <xs:element name="scenario" type="scenarioType"/>
+            <xs:element name="nationalite" type="xs:string"/>
+            <xs:element name="image" type="imageType"/>
+        </xs:sequence>
+        <xs:attribute name="annee" type="xs:gYear" use="required"/>
+        <xs:attribute name="numero_visa" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="exploitationType">
+        <xs:sequence>
+            <xs:element name="date_sortie" type="xs:string"/>
+            <xs:element name="nombre_entrees" type="xs:integer"/>
+            <xs:element name="nombre_salles" type="xs:integer"/>
+            <xs:element name="listepays" type="listepaysType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="listepaysType">
+        <xs:sequence>
+            <xs:element name="pays" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="acteursType">
+        <xs:sequence>
+            <xs:element name="acteur" type="acteurType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="acteurType">
+        <xs:attribute name="ref" type="xs:string" use="required"/>
+        <xs:attribute name="dateNaissance" type="xs:string" use="optional"/>
+        <xs:attribute name="sexe" type="xs:string" use="optional"/>
+        <xs:attribute name="lieuNaissance" type="xs:string" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="genresType">
+        <xs:sequence>
+            <xs:element name="genre" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="dureeType">
+        <xs:simpleContent>
+            <xs:extension base="xs:integer">
+                <xs:attribute name="unité" type="xs:string" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="scenarioType">
+        <xs:sequence>
+            <xs:element name="ev" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="imageType">
+        <xs:attribute name="ref" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="acteurDescriptionType">
+        <xs:sequence>
+            <xs:element name="nom" type="xs:string"/>
+            <xs:element name="dateNaissance" type="xs:date"/>
+            <xs:element name="sexe" type="xs:string"/>
+            <xs:element name="lieuNaissance" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+    </xs:complexType>
+
+</xs:schema>

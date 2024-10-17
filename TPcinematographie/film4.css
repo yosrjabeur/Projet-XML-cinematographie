@@ -1,0 +1,41 @@
+img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+b {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="cinematographie5.xsl" type="text/xsl" ?>
+<films xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cinematographie.xsd">
+    <film annee="2005" numero_visa="114089">
+        <titre>King Kong</titre>
+        <affiche>KingKong.jpg</affiche>
+        <exploitation>
+            <date_sortie>mercredi 14 décembre 2005</date_sortie>
+            <nombre_entrees>2838759</nombre_entrees>
+            <nombre_salles>547</nombre_salles>
+            <listepays>
+                <pays>France</pays>
+                <pays>Italy</pays>
+                <pays>Belgique</pays>
+            </listepays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="b1"></acteur>
+            <acteur ref="b2"></acteur>
+            <acteur ref="b3"></acteur>
+            <acteur ref="b4"></acteur>
+        </acteurs>
+        <realisateur>Peter Jackson</realisateur>
+        <genres>
+            <genre>aventure</genre>
+        </genres>
+        <duree unité="minutes">188</duree>
+        <scenario>
+            <ev>New York, 1933. Ann Darrow, artiste de music-hall à la rue, rencontre l'audacieux explorateur/réalisateur Carl Denham. Ce dernier rêve de terminer son film inachevé, mais nourrit surtout la folle ambition d'être le premier à découvrir le secret de la mystérieuse Skull Island. Il va entraîner Ann dans sa périlleuse aventure...</ev>
+        </scenario>
+        <nationalite>Américain</nationalite>
+        <image ref="KingKong.jpg"/>
+    </film>
+    <film annee="2024" numero_visa="1140890">
+        <titre>Le Fil</titre>
+        <affiche>LeFil.jpg</affiche>
+        <exploitation>
+            <date_sortie>mercredi 11 septembre 2024</date_sortie>
+            <nombre_entrees>543875</nombre_entrees>
+            <nombre_salles>200</nombre_salles>
+            <listepays>
+                <pays>France</pays>
+                <pays>Croatie</pays>
+                <pays>Espagne</pays>
+                <pays>Italy</pays>
+                <pays>Monaco</pays>
+                <pays>Allemagne</pays>
+            </listepays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="b1"></acteur>
+            <acteur ref="b2"></acteur>
+            <acteur ref="b3"></acteur>
+            <acteur ref="b4"></acteur>
+        </acteurs>
+        <realisateur>Daniel Auteuil</realisateur>
+        <genres>
+            <genre>drame</genre>
+            <genre>science-fiction</genre>
+        </genres>
+        <duree unité="minutes">105</duree>
+        <scenario>
+            <ev>Maître Jean Monier, un avocat désenchanté, ne prend plus de dossiers criminels. Mais en faisant la rencontre de Nicolas Milik, un père de famille désœuvré, accusé d’avoir tué sa femme, et en voyant les éléments de son innocence abonder, son monde bascule ; dès lors il se montre prêt à tout pour le faire sortir de détention provisoire et lui faire gagner son procès aux assises, retrouvant ainsi le sens de sa vocation.</ev>
+        </scenario>
+        <nationalite>Français</nationalite>
+        <image ref="LeFil.jpg"/>
+    </film>
+    <film annee="2002" numero_visa="118448">
+        <titre>Le Pianiste</titre>
+        <affiche>LePianiste.jpg</affiche>
+        <exploitation>
+            <date_sortie>mercredi 25 septembre 2002</date_sortie>
+            <nombre_entrees>5547200</nombre_entrees>
+            <nombre_salles>3000</nombre_salles>
+            <listepays>
+                <pays>Monaco</pays>
+                <pays>France</pays>
+                <pays>Pologne</pays>
+            </listepays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="b4"></acteur>
+            <acteur ref="b5"></acteur>
+            <acteur ref="b6"></acteur>
+        </acteurs>
+        <realisateur>Roman Polanski</realisateur>
+        <genres>
+            <genre>drame</genre>
+            <genre>historique</genre>
+        </genres>
+        <duree unité="minutes">148</duree>
+        <scenario>
+            <ev>Durant la Seconde Guerre mondiale, Wladyslaw Szpilman, un célèbre pianiste juif polonais, échappe à la déportation mais se retrouve parqué dans le ghetto de Varsovie dont il partage les souffrances, les humiliations et les luttes héroïques. Il parvient à s'en échapper et se réfugie dans les ruines de la capitale. Un officier allemand, qui apprécie sa musique, l'aide et lui permet de survivre. Né en Pologne en 1911, Wladyslaw Szpilman devient un pianiste et compositeur célèbre. Il est engagé en 1935 par la radio d'Etat polonaise mais est victime comme les autres Juifs de Pologne de l'antisémitisme nazi à partir de l'invasion nazie en septembre 1939. Il échappe à la mort grâce à l'aide d'un officier allemand. En 1946, le pianiste virtuose publie ses mémoires sous le titre Mort de la ville.</ev>
+        </scenario>
+        <nationalite>Britannique</nationalite>
+        <image ref="LePianiste.jpg"/>
+    </film>
+    <film annee="2013" numero_visa="118449">
+        <titre>Le loup de wall street</titre>
+        <affiche>loupdewall.jpg</affiche>
+        <exploitation>
+            <date_sortie>mercredi 25 décembre 2013</date_sortie>
+            <nombre_entrees>2200000</nombre_entrees>
+            <nombre_salles>800</nombre_salles>
+            <listepays>
+                <pays>France</pays>
+                <pays>USA</pays>
+            </listepays>
+        </exploitation>
+        <acteurs>
+            <acteur ref="b6"></acteur>
+            <acteur ref="b4"></acteur>
+            <acteur ref="b6"></acteur>
+        </acteurs>
+        <realisateur>Martin Scorsese</realisateur>
+        <genres>
+            <genre>biographie</genre>
+        </genres>
+        <duree unité="minutes">180</duree>
+        <scenario>
+            <ev>Le loup de Wall Street retrace l'ascension et la chute de Jordan Belfort, un courtier de Wall Street qui commet des fraudes boursières et se retrouve impliqué dans un monde de corruption. Le film montre sa vie extravagante, ses excès et ses démêlés avec la justice.</ev>
+        </scenario>
+        <nationalite>Américain</nationalite>
+        <image ref="loupdewall.jpg"/>
+    </film>
+    <acteurDescription id="b1">
+        <nom>Peter Jackson</nom>
+        <dateNaissance>1961-10-01</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Wellington, Nouvelle-Zélande</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="b2">
+        <nom>Naomi Watts</nom>
+        <dateNaissance>1968-09-28</dateNaissance>
+        <sexe>F</sexe>
+        <lieuNaissance>Launceston, Australie</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="b3">
+        <nom>Jack Black</nom>
+        <dateNaissance>1973-04-14</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>New York, USA</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="b4">
+        <nom>Adrien Brody</nom>
+        <dateNaissance>1973-04-14</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>New York, USA</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="b5">
+        <nom>Thomas Kretschmann</nom>
+        <dateNaissance>1962-07-08</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Dessau, Allemagne</lieuNaissance>
+    </acteurDescription>
+
+    <acteurDescription id="b6">
+        <nom>Leonardo DiCaprio</nom>
+        <dateNaissance>1974-11-11</dateNaissance>
+        <sexe>M</sexe>
+        <lieuNaissance>Los Angeles, USA</lieuNaissance>
+    </acteurDescription>
+</films>
