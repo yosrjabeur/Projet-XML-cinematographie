@@ -1,1 +1,1 @@
-"# Projet-XML-cinematographie" 
+"# C'est un mini projet XML cinematographie" 
